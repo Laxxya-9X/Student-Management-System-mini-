@@ -10,6 +10,6 @@ def save_record(s):
         pickle.dump(students_obj_list,file)
 
 s1 =Student("Laxya",32,12)
-s2 =Student("Dolly",31,11)
+s2 =Student("kolly",31,11)
 save_record(s1)
 save_record(s2)
