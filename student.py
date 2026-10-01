@@ -1,11 +1,8 @@
 class Student:
-    def __init__(self,Name,RollNo , Std):
-        self.Name = Name
-        self.RollNo = RollNo
-        self.Std = Std
+    def __init__(self, name, roll_no, grade):
+        self.name = name
+        self.roll_no = roll_no
+        self.grade = grade
 
-    def display(self):
-        return f"Name : {self.Name} , Roll_No. : {self.RollNo} , Class : {self.Std}"
-
-# s1 = Student("Laxya",23,12)
-# print(s1)
+    def __str__(self):
+        return f"Name : {self.name} | Roll : {self.roll_no}| Grade : {self.grade}"
